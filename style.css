@@ -1,0 +1,23 @@
+/* global color styles  */
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    display: grid; 
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+h1, 
+a, 
+button {
+    color: hsl(0, 0%, 8%)
+}
+
+p, 
+.features-dropdown a,
+.company-dropdown a{
+    color: hsl(0, 0%, 41%)
+}
+
+/* drop down navigation styling  */
+
