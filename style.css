@@ -14,7 +14,8 @@ h1{
 
 a, 
 button {
-    color: hsl(0, 0%, 41%)
+    color: hsl(0, 0%, 41%);
+    font-size: 18px;
 }
 
 p, 
@@ -22,6 +23,7 @@ p,
 .company-dropdown a{
     color: hsl(0, 0%, 41%);
     line-height: 1.5rem;
+    font-size: 18px;
 }
 
 .attribution{
@@ -110,13 +112,14 @@ h1 {
 }
 
 button {
-    width: 7rem;
-    height: 2.5rem;
-    margin-bottom: 4rem;
+    width: 10rem;
+    height: 3rem;
+    margin-bottom: 3rem;
     margin-top: 2rem;
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 98%);
     border: none;
     border-radius: 10px;
+    font-size: 18px;
 }
 
