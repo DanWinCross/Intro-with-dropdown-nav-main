@@ -2,15 +2,19 @@
 
 body {
     background-color: hsl(0, 0%, 98%);
-    display: grid; 
     font-family: 'Epilogue', sans-serif;
+    margin: 0;
 }
 
 
-h1, 
+h1{
+    color:hsl(0, 0%, 8%);
+}
+
+
 a, 
 button {
-    color: hsl(0, 0%, 8%)
+    color: hsl(0, 0%, 41%)
 }
 
 p, 
@@ -19,5 +23,58 @@ p,
     color: hsl(0, 0%, 41%)
 }
 
-/* drop down navigation styling  */
+/* drop down navigation styling non-active states */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1.5rem 0.5rem;
+    
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.features-dropdown, .company-dropdown{
+    display: none;
+}
+
+
+.drop-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-down-icon{
+    margin-left: 0.5rem;
+}
+
+.logo {
+    padding:0.5rem;
+}
+
+.log-in{
+    margin-right: 1rem;
+}
+
+.log-in-link, .registration-link{
+    margin: 0.5rem;
+}
+
+.registration-link{
+    border:solid 2px hsl(0, 0%, 41%);
+    padding: 10px;
+    border-radius: 10px;
+}
 
