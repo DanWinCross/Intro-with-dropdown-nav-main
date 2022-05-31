@@ -30,7 +30,7 @@ p,
     margin-top: 5rem;
 }
 
-/* drop down navigation styling non-active states */
+/* COMPONENT STYLES */
 
 nav {
     display: flex;
@@ -85,6 +85,10 @@ nav ul li a {
     border-radius: 10px;
 }
 
+.menu-icon {
+    display: none;
+}
+
 
 /* hero section styling  */
 
@@ -123,3 +127,42 @@ button {
     font-size: 18px;
 }
 
+
+
+/* MOBILE DESIGN  */
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+   
+    
+    nav{
+        align-content: center;
+        margin-bottom: 0;
+        position: fixed;
+        width: 85%;
+        top: 0;
+    }
+    
+    nav ul li a {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .registration-link{
+        display: none;
+    }
+
+    .menu-icon{
+        display: inline-block;
+        margin-top: 1rem;
+    }
+
+    .image-hero img{
+        width: 90%;
+    }
+
+}
