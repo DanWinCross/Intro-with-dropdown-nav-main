@@ -54,6 +54,7 @@ nav ul li a {
 
 nav ul li a:hover{
     color: hsl(0, 0%, 8%);
+    font-size: 1.2rem;
 }
 
 .features-dropdown, .company-dropdown{
@@ -87,6 +88,18 @@ nav ul li a:hover{
     border:solid 2px hsl(0, 0%, 41%);
     padding: 10px;
     border-radius: 10px;
+}
+
+.registration-link a:hover {
+    font-size: 18px;
+    background-color: hsl(0, 0%, 41%);
+    color:hsl(0, 0%, 98%)
+}
+
+.registration-link:hover {
+    font-size: 18px;
+    background-color: hsl(0, 0%, 41%);
+    color:hsl(0, 0%, 98%)
 }
 
 .menu-icon {
@@ -154,7 +167,10 @@ button {
     font-size: 18px;
 }
 
-
+button:hover{
+    background-color: hsl(0, 0%, 41%);
+    font-size: 20px;
+}
 
 @media (max-width: 600px){
     body{
