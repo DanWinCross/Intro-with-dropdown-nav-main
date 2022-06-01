@@ -67,7 +67,7 @@ nav ul li a:hover{
     box-shadow: -2px 2px 0 0 hsl(0, 0%, 41%);
 }
 
-.features-dropdown:hover {
+.features-dropdown:hover .features-dropdown li{
     display: inline-block;
 }
 
@@ -90,6 +90,14 @@ nav ul li a:hover{
     display: inline-flex;
     justify-content: center;
     align-items: center; 
+}
+
+.company:hover .company-dropdown{
+    display: inline-block;
+}
+
+.features:hover .features-dropdown{
+    display: inline-block;
 }
 
 .drop-down-icon{
@@ -169,7 +177,7 @@ nav ul li a:hover{
     flex-direction: column;
     max-width: 500px;
     margin-left: 8rem;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 h1 {
