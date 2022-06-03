@@ -1,14 +1,17 @@
 // document.getElementsByClassName('features-dropdown')[0].style.display = "inline-block";
 
-let dropdown = document.getElementsByClassName('features-dropdown')[0];
+let dropdown = document.getElementsByClassName('features-dropdown');
+let dropdown2 = document.getElementsByClassName('company-dropdown');
 
 function activateDropDown (){
-    dropdown.style.display = "inline-block";
+    Element.style.display = "inline-block";
 }
 
 function deactivateDropDown () {
-    dropdown.style.display = "none";
+    Element.style.display = "none";
 }
 
-dropdown.onmouseover = activateDropDown;
-dropdown.onmouseout = deactivateDropDown;
+dropdown.onmouseenter = activateDropDown;
+dropdown.onmouseleave = deactivateDropDown;
+dropdown2.onmouseenter = activateDropDown;
+dropdown2.onmouseleave = deactivateDropDown;

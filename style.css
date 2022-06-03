@@ -67,9 +67,6 @@ nav ul li a:hover{
     box-shadow: -2px 2px 0 0 hsl(0, 0%, 41%);
 }
 
-.features-dropdown:hover .features-dropdown li{
-    display: inline-block;
-}
 
 .features-dropdown a, .company-dropdown a{
     font-size: 14px;
