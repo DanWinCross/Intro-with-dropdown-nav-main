@@ -1,17 +1,14 @@
 // document.getElementsByClassName('features-dropdown')[0].style.display = "inline-block";
 
-let dropdown = document.getElementsByClassName('features-dropdown');
-let dropdown2 = document.getElementsByClassName('company-dropdown');
+let dropdown = document.getElementsById('features');
+let dropdown2 = document.getElementsById('company');
 
-function activateDropDown (){
-    Element.style.display = "inline-block";
+let activateDropDown = function (){
+    dropdown.style.display = 'block';
 }
 
 function deactivateDropDown () {
-    Element.style.display = "none";
+    dropdown2.style.display = 'none';
 }
 
-dropdown.onmouseenter = activateDropDown;
-dropdown.onmouseleave = deactivateDropDown;
-dropdown2.onmouseenter = activateDropDown;
-dropdown2.onmouseleave = deactivateDropDown;
+dropdown.addEventListener('click',activateDropDown);

@@ -89,13 +89,13 @@ nav ul li a:hover{
     align-items: center; 
 }
 
-.company:hover .company-dropdown{
+/* .company:hover .company-dropdown{
     display: inline-block;
 }
 
 .features:hover .features-dropdown{
     display: inline-block;
-}
+} */
 
 .drop-down-icon{
     margin-left: 0.5rem;
